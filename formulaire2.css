@@ -52,36 +52,9 @@ body{
 .formulaire a{
     color: blue;
 }
-label{
+input[type="checkbox"] {
     position: relative;
-    padding: 0 0 0 2em;
-}
-
-input[type="checkbox"]{
-    position:absolute;
-    opacity: 0;
-}
-input[type="checkbox"] + label: ::before,
-input[type="checkbox"] + label: ::after{
-    ::content: '';
-    display: inline-block;
-}
-input[type="checkbox"] + label::before{
-    left: 0.5rem;
-    top: 0.15rem;
-    width: 0.9rem;
-    height: 0.9rem;
-    border: 0.05rem solid black;
-    background: white;
-}
-input[type="checkbox"] :checked + label::after{
-    left: 0.6rem;
-    top: 0.28rem;
-    height: 0.8rem;
-    border-left: 0.8rem solid black;
-}
-input[type="checkbox"] :focus + label::before{
-    outline: 0.05rem dotted;
-}
-
-
+    top: 20px;
+    right: 140px;
+    background: blue;
+  }
