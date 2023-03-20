@@ -20,9 +20,6 @@ body{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-   
-    
-
 }
 .formulaire input{
     font-family: inherit;
@@ -48,9 +45,6 @@ body{
     margin: 20px 0 5px 0;
     display: block;
     border-radius: 0%;
-}
-.formulaire a{
-    color: blue;
 }
 input[type="checkbox"] {
     position: relative;
